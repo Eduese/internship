@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+<body>
+<!--link rel = "stylesheet" href = "project01.css"-->
+<style>
+.naturetxt{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	font-size: 2.5em;
+	
+}
+
+.container1{
+	position:relative;
+	text-align:center;
+	color: white;
+}
+
+.finepics{
+	position:relative;
+}
+</style>
+
+<div class="container1">
+
+<img src ="nature_0025.jpg"  class="finepics"> 
+<p class="naturetxt">
+
+   
+<?php
+echo " Today is : ".date("l")." ".date("Y-m-d").'<br><br>' ;
+ 
+echo " and the time is  ".date(" H : i : s ", time());
+?>
+
+</p>
+</div>
+</body>
+</html>
