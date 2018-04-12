@@ -33,6 +33,7 @@ echo " Today is : ".date("l")." ".date("Y-m-d").'<br><br>' ;
 date_default_timezone_set("Africa/Lagos");
  
 echo " and the time is  ".date(" h : i : s ");
+//this is a new comment
 ?>
 
    
